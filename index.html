@@ -6,7 +6,7 @@
         content="A short starter to build website for your paper.">
   <meta name="keywords" content="Paper, website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TODO Window title</title> <!-- the browser tab will display this text -->
+  <title>SSG MAKE 2026</title> <!-- the browser tab will display this text -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -50,31 +50,28 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">TODO: Title of your paper</h1>
+          <h1 class="title is-1 publication-title">A Scene Graph Backed Approach to <br> Open Set Semantic Mapping</h1>
           <div class="is-size-5 publication-authors">
-
-            <!-- TODO: modify authors, affiliations and personal websites-->
-
             <span class="author-block">
-              <a href="https://www.dfki.de/web/ueber-uns/mitarbeiter/person/TODO">TODO Author1 Name</a><sup>1</sup>,</span>
-
+              <a href="https://www.dfki.de/en/web/about-us/employee/person/magu02">Martin Günther</a><sup>1*</sup>,</span>
             <span class="author-block">
-              <a href="https://www.dfki.de/web/ueber-uns/mitarbeiter/person/TODO">TODO Author2 Name</a><sup>2</sup>,</span>
-
-            <!-- change of line -->
+              <a href="https://www.dfki.de/en/web/about-us/employee/person/igfe01">Felix Igelbrink</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.dfki.de/en/web/about-us/employee/person/osli01">Oscar Lima</a><sup>1*</sup>,</span>
             <br>
-
             <span class="author-block">
-              <a href="https://www.dfki.de/web/ueber-uns/mitarbeiter/person/TODO">TODO Author3 Name</a><sup>1,2</sup>,</span>
-
+              <a href="https://www.dfki.de/en/web/about-us/employee/person/leni01">Lennart Niecksch</a><sup>1,2*</sup>,</span>
             <span class="author-block">
-              <a href="https://www.dfki.de/web/ueber-uns/mitarbeiter/person/TODO">TODO Author4 Name</a><sup>2,1</sup>,</span>
-
+              <a href="https://www.dfki.de/en/web/about-us/employee/person/mare10">Marian Renz</a><sup>1,2*</sup>,</span>
+            <br>
+            <span class="author-block">
+              <a href="https://martin.atzmueller.net/">Martin Atzmueller</a><sup>2,1</sup></span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>German Research Center for Artificial Intelligence (DFKI), Osnabrück, Germany.</span>
-            <span class="author-block"><sup>2</sup>Osnabrück University, Institute of Computer Science, Germany.</span>
+            <span class="author-block"><sup>1</sup>German Research Center for Artificial Intelligence (DFKI), Cooperative and Autonomous Systems (CAS), Hamburger Straße 24, Osnabrück, Germany.</span>
+            <span class="author-block"><sup>2</sup>Osnabrück University, Semantic Information Systems Group, Wachsbleiche 27, Osnabrück, Germany.</span>
+            <span class="author-block"><sup>*</sup>Equal contribution.</span>
           </div>
 
           <div class="column has-text-centered">
@@ -163,7 +160,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            TODO_ABSTRACT Robotic task execution faces challenges due to the inconsistency between symbolic planner models and the rich control structures actually running on the robot. In this paper, we present the first physical deployment of an integrated actor-planner system that shares hierarchical operational models for both acting and planning, interleaving the Reactive Acting Engine (RAE) with an anytime UCT-like Monte Carlo planner (UPOM). We implement RAE+UPOM on a mobile manipulator in a real-world deployment for an object collection task. Our experiments demonstrate robust task execution under action failures and sensor noise, and provide empirical insights into the interleaved acting-and-planning decision making process.
+            While Open Set Semantic Mapping and 3D Semantic Scene Graphs (3DSSGs) are established paradigms in robotic perception, deploying them effectively to support high-level reasoning in large-scale, real-world environments remains a significant challenge. Most existing approaches decouple perception from representation, treating the scene graph as a derivative layer generated post hoc. This limits both consistency and scalability. In contrast, we propose a mapping architecture where the 3DSSG serves as the foundational backend, acting as the primary knowledge representation for the entire mapping process.
+
+Our approach leverages prior work on incremental scene graph prediction to infer and update the graph structure in real-time as the environment is explored. This ensures that the map remains topologically consistent and computationally efficient, even during extended operations in large-scale settings. By maintaining an explicit, spatially grounded representation that supports both flat and hierarchical topologies, we bridge the gap between sub-symbolic raw sensor data and high-level symbolic reasoning. Consequently, this provides a stable, verifiable structure that knowledge-driven frameworks, ranging from knowledge graphs and ontologies to Large Language Models (LLMs), can directly exploit, enabling agents to operate with enhanced interpretability, trustworthiness, and alignment to human concepts.
           </p>
         </div>
       </div>
