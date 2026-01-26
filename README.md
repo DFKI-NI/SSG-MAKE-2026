@@ -1,18 +1,18 @@
-# Research paper website template
+# SSG-MAKE-2026
 
-Watch [the video tutorial](https://youtu.be/4zxtc0_p-xA) to learn how to use this template.
+This is the repository that contains source code for the [SSG-MAKE-2026 website](https://dfki-ni.github.io/SSG-MAKE-2026).
 
-# TODO_ID_CONFERENCE_YEAR
-
-This is the repository that contains source code for the [TODO_ID_CONFERENCE_YEAR website](https://dfki-ni.github.io/TODO_ID_CONFERENCE_YEAR).
-
-If you find TODO_ID_CONFERENCE_YEAR useful for your work please cite:
+If you find SSG-MAKE-2026 useful for your work please cite:
 ```
-@article{TODO
-  author       = {TODO_AUTHOR(S)},
-  title        = {TODO_TITLE},
-  conference   = {TODO_CONFERENCE},
-  year         = {TODO_YEAR},
+@misc{TODO,
+      title={A Scene Graph Backed Approach to
+Open Set Semantic Mapping}, 
+      author={Lima, Oscar and Vinci, Marc and G{"u}nther, Martin and Renz, Marian and Sung, Alexander and Stock, Sebastian and Brust, Johannes and Niecksch, Lennart and Yi, Zongyao and Igelbrink, Felix and Kisliuk, Benjamin and Atzmueller, Martin and Hertzberg, Joachim},
+      year={2026},
+      eprint={TODO},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/TODO}, 
 }
 ```
 
