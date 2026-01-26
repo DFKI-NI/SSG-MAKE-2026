@@ -7,7 +7,7 @@ If you find SSG-MAKE-2026 useful for your work please cite:
 @misc{TODO,
       title={A Scene Graph Backed Approach to
 Open Set Semantic Mapping}, 
-      author={Lima, Oscar and Vinci, Marc and G{"u}nther, Martin and Renz, Marian and Sung, Alexander and Stock, Sebastian and Brust, Johannes and Niecksch, Lennart and Yi, Zongyao and Igelbrink, Felix and Kisliuk, Benjamin and Atzmueller, Martin and Hertzberg, Joachim},
+      author={G{"u}nther, Martin and Igelbrink, Felix and Lima, Oscar and Niecksch, Lennart and Renz, Marian and Atzmueller, Martin},
       year={2026},
       eprint={TODO},
       archivePrefix={arXiv},
