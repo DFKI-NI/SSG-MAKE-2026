@@ -13,6 +13,13 @@ body {
     margin-bottom: 5px;
 }
 
+.link-block .is-coming-soon {
+    cursor: not-allowed;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 0.45;
+}
+
 .dnerf {
   font-variant: small-caps;
 }
